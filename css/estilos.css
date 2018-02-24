@@ -1,0 +1,156 @@
+/*header*/
+header{
+  background-color: #5b7989;
+  border-radius: 10px 10px 0 0;
+  display: flex;
+  flex-direction: row;
+}
+/*menu del header*/
+header a,header a:visited,header a:link{
+  color: white;
+  font-family: Dancing Script;
+}
+.titulo{
+  margin: auto;
+}
+
+.menu{
+  margin: auto;
+  float: right;
+}
+@font-face {
+  font-family: ´dansing script´;
+  src: url(´http://www.1001fonts.com/dancing-script-font.html/DancingScript-Regular.ttf´) format(´ttf´);
+}
+
+h1 {
+  color: white;
+  font-family: 'Dancing Script';
+  font-style: normal;
+  text-shadow: 0 0 2px;
+}
+a.subrayado{
+  text-decoration: none;
+}
+
+#contenido {
+  display:flex;
+}
+
+#imagen1 {
+  width: 100%;
+  height: 100%;
+  background-color: #82c3a6;
+  border-color: 1px solid;
+  display: block;
+  padding: 25%;
+}
+
+#secundaria {
+  width: 100%;
+  height: 50%;
+  background-color: #d5c75f;
+  border: 1px;
+  padding: 1px;
+}
+
+.contenedor > div {
+	text-align: center;
+	padding: 5px;
+	margin: 5px;
+	width: 70%;
+}
+
+#imagen2 {
+border: 2px;
+box-shadow: 0px 0px;
+transition: transform 1s;
+}
+#imagen2:hover{
+transform: rotate(10deg);
+}
+
+#imagen3 {
+border: 2px;
+box-shadow: 0px 0px;
+transition: transform 1s;
+}
+#imagen3:hover{
+transform: translate(20px,-5px);
+}
+
+h2{
+  font-family: Dancing Script;
+}
+
+
+/*footer*/
+.contenedor {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 50%;
+}
+
+.container div {
+  width: 100%;
+  height: 50%;
+	box-sizing: border-box;
+	padding: 50px;
+}
+
+.c1 {
+	color: black;
+	background-color: #E6EBE0;
+}
+
+.c2 {
+	color: black;
+	background-color: #E6EBE0;
+  }
+
+.c3 {
+	color: black;
+	background-color: #E6EBE0;
+  }
+
+.c4 {
+	color: black;
+	background-color: #E6EBE0;
+  }
+.container {
+  display: flex;
+	flex-direction: row;
+}
+
+h3{
+  font-family: Dancing Script;
+}
+p{
+  font-family: Dancing Script;
+}
+
+/*media queries*/
+@media (max-width: 600px) {
+header{
+background-color: #5b7989;
+border-radius: 10px 10px 0 0;
+display: flex;
+flex-direction: column;
+}
+
+#contenido {
+display:flex;
+flex-direction: column;
+}
+
+.contenedor {
+display: flex;
+flex-direction: column;
+}
+
+.container {
+display: flex;
+flex-direction: column;
+}
+}
